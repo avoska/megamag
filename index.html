@@ -1,0 +1,636 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="shortcut icon" href="img/crown.png" type="image/png">
+
+    <script src="js/jquery-2.2.2.min.js"></script>
+
+
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+
+
+    <title>Megamag</title>
+</head>
+<body>
+<header>
+
+
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-xs-12">
+                <nav class="navbar navbar-default" role="navigation">
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+                            <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span>
+                        </button>
+                    </div>
+                    <div class="collapse navbar-collapse navbar-ex1-collapse">
+                        <ul class="nav navbar-nav navbar-right">
+                            <li>
+                                <a href="#">EN <img class="en_icon" src="img/eng_icon.jpg"></a>
+                            </li>
+                            <li class="divider-vertical"></li>
+                            <li>
+                                <a href="#">Live chat</a>
+                            </li>
+                            <li class="divider-vertical"></li>
+                            <li>
+                                <a href="#">Forgot your password?</a>
+                            </li>
+                            <li class="divider-vertical"></li>
+                            <li>
+                                <form class="form-inline login_style">
+                                    <div class="form-group">
+                                        <input type="text" class="input_style form-control" id="exampleInputName2" placeholder="User Name">
+                                    </div>
+                                    <div class="form-group">
+                                        <input type="password" class="input_style form-control margin_form" id="exampleInputEmail2" placeholder="Password">
+                                    </div>
+                                    <div class="form-group">
+                                        <button type="submit" class="btn btn-block login_btn">Login</button>
+                                    </div>
+                                </form>
+                            </li>
+                            <li>
+                                <div class="btn btn-block1">OPEN ACCOUNT</div>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-xs-12 down_menu">
+                <nav class="navbar navbar-default" role="navigation">
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+                            <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span>
+                        </button>
+                    </div>
+                    <!-- Collect the nav links, forms, and other content for toggling -->
+                    <div class="collapse navbar-collapse navbar-ex1-collapse">
+                        <ul class="nav navbar-nav navbar-right">
+                            <li>
+                                <a href="#">OPTIONS</a>
+                            </li>
+                            <li>
+                                <a href="#">OPEN ACCOUNT</a>
+                            </li>
+                            <li>
+                                <a href="#">HELP</a>
+                            </li>
+                        </ul>
+                    </div><!-- /.navbar-collapse -->
+                </nav>
+            </div>
+        </div>
+    </div>
+</header>
+<section>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-xs-5">
+                <ul class="nav nav-tabs">
+                    <li class="active">
+                        <a data-toggle="tab" href="#panel1">HIGHT / LOW</a>
+                    </li>
+                    <li>
+                        <a data-toggle="tab" href="#panel2">SHORT TERM</a>
+                    </li>
+                    <li>
+                        <a data-toggle="tab" href="#panel3">ONE TOUCH</a>
+                    </li>
+                    <li>
+                        <a data-toggle="tab" href="#panel4">BOUNDARY</a>
+                    </li>
+                </ul>
+                <div class="tab-content">
+                    <div id="panel1" class="tab-pane fade in active">
+                        <div class="container-fluid">
+                            <div class="row left_col_header">
+                                <div class="col-xs-12">
+                                    <div class="btn btn_header_1">HIGH / LOW</div>
+                                    <div class="btn btn_header_2">ABOVE / BELOW</div>
+                                </div>
+                            </div>
+                            <div class="row left_col_header">
+                                <div class="col-xs-9 indent_1">
+                                    <span class="filter_style">Filter</span>
+                                    <select class="select_left">
+                                        <option>All</option>
+                                        <option>Option 1</option>
+                                        <option>Option 2</option>
+                                        <option>Option 3</option>
+                                        <option>Option 4</option>
+                                        <option>Option 5</option>
+                                    </select>
+                                </div>
+                                <div class="col-xs-3 indent_1">
+                                    <div class="dropdown">
+                                        <button class="btn btn-default dropdown-toggle dd_settings_left" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                                            <span class="glyphicon glyphicon-cog"></span> <span class="caret"></span>
+                                        </button>
+                                        <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+                                            <li>
+                                                <a href="#">Option 1</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">Option 1</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">Option 1</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">Option 1</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-xs-12 no_padding table_style">
+                                    <table class=" table table-striped">
+                                        <thead>
+                                        <tr>
+                                            <th>ASSET</th>
+                                            <th></th>
+                                            <th>TARGET</th>
+                                            <th>EXPIRES</th>
+                                            <th>TIME</th>
+                                        </tr>
+                                        </thead>
+                                        <tbody>
+                                        <tr>
+                                            <td>EUR/USD</td>
+                                            <td>81%</td>
+                                            <td>1.122415</td>
+                                            <td>
+                                                <select class="select_table btn-block">
+                                                    <option>11:30</option>
+                                                    <option>12:30</option>
+                                                    <option>13:30</option>
+                                                </select>
+                                            </td>
+                                            <td>7:45</td>
+                                        </tr>
+                                        <tr>
+                                            <td>EUR/USD</td>
+                                            <td>81%</td>
+                                            <td>1.122415</td>
+                                            <td>
+                                                <select class="select_table btn-block">
+                                                    <option>11:30</option>
+                                                    <option>12:30</option>
+                                                    <option>13:30</option>
+                                                </select>
+                                            </td>
+                                            <td>7:45</td>
+                                        </tr>
+                                        <tr>
+                                            <td>EUR/USD</td>
+                                            <td>81%</td>
+                                            <td>1.122415</td>
+                                            <td>
+                                                <select class="select_table btn-block">
+                                                    <option>11:30</option>
+                                                    <option>12:30</option>
+                                                    <option>13:30</option>
+                                                </select>
+                                            </td>
+                                            <td>7:45</td>
+                                        </tr>
+                                        <tr>
+                                            <td>EUR/USD</td>
+                                            <td>81%</td>
+                                            <td>1.122415</td>
+                                            <td>
+                                                <select class="select_table btn-block">
+                                                    <option>11:30</option>
+                                                    <option>12:30</option>
+                                                    <option>13:30</option>
+                                                </select>
+                                            </td>
+                                            <td>7:45</td>
+                                        </tr>
+                                        <tr>
+                                            <td>EUR/USD</td>
+                                            <td>81%</td>
+                                            <td>1.122415</td>
+                                            <td>
+                                                <select class="select_table btn-block">
+                                                    <option>11:30</option>
+                                                    <option>12:30</option>
+                                                    <option>13:30</option>
+                                                </select>
+                                            </td>
+                                            <td>7:45</td>
+                                        </tr>
+                                        <tr>
+                                            <td>EUR/USD</td>
+                                            <td>81%</td>
+                                            <td>1.122415</td>
+                                            <td>
+                                                <select class="select_table btn-block">
+                                                    <option>11:30</option>
+                                                    <option>12:30</option>
+                                                    <option>13:30</option>
+                                                </select>
+                                            </td>
+                                            <td>7:45</td>
+                                        </tr>
+                                        <tr>
+                                            <td>EUR/USD</td>
+                                            <td>81%</td>
+                                            <td>1.122415</td>
+                                            <td>
+                                                <select class="select_table btn-block">
+                                                    <option>11:30</option>
+                                                    <option>12:30</option>
+                                                    <option>13:30</option>
+                                                </select>
+                                            </td>
+                                            <td>7:45</td>
+                                        </tr>
+                                        <tr>
+                                            <td>EUR/USD</td>
+                                            <td>81%</td>
+                                            <td>1.122415</td>
+                                            <td>
+                                                <select class="select_table btn-block">
+                                                    <option>11:30</option>
+                                                    <option>12:30</option>
+                                                    <option>13:30</option>
+                                                </select>
+                                            </td>
+                                            <td>7:45</td>
+                                        </tr>
+                                        <tr>
+                                            <td>EUR/USD</td>
+                                            <td>81%</td>
+                                            <td class="red">1.122415</td>
+                                            <td>
+                                                <select class="select_table btn-block">
+                                                    <option>11:30</option>
+                                                    <option>12:30</option>
+                                                    <option>13:30</option>
+                                                </select>
+                                            </td>
+                                            <td>7:45</td>
+                                        </tr>
+                                        <tr>
+                                            <td>EUR/USD</td>
+                                            <td>81%</td>
+                                            <td>1.122415</td>
+                                            <td>
+                                                <select class="select_table btn-block">
+                                                    <option>11:30</option>
+                                                    <option>12:30</option>
+                                                    <option>13:30</option>
+                                                </select>
+                                            </td>
+                                            <td>7:45</td>
+                                        </tr>
+                                        <tr>
+                                            <td>EUR/USD</td>
+                                            <td>81%</td>
+                                            <td class="green">1.122415</td>
+                                            <td>
+                                                <select class="select_table btn-block">
+                                                    <option>11:30</option>
+                                                    <option>12:30</option>
+                                                    <option>13:30</option>
+                                                </select>
+                                            </td>
+                                            <td>7:45</td>
+                                        </tr>
+                                        <tr>
+                                            <td>EUR/USD</td>
+                                            <td>81%</td>
+                                            <td>1.122415</td>
+                                            <td>
+                                                <select class="select_table btn-block">
+                                                    <option>11:30</option>
+                                                    <option>12:30</option>
+                                                    <option>13:30</option>
+                                                </select>
+                                            </td>
+                                            <td>7:45</td>
+                                        </tr>
+                                        <tr>
+                                            <td>EUR/USD</td>
+                                            <td>81%</td>
+                                            <td>1.122415</td>
+                                            <td>
+                                                <select class="select_table btn-block">
+                                                    <option>11:30</option>
+                                                    <option>12:30</option>
+                                                    <option>13:30</option>
+                                                </select>
+                                            </td>
+                                            <td>7:45</td>
+                                        </tr>
+                                        <tr>
+                                            <td>EUR/USD</td>
+                                            <td>81%</td>
+                                            <td>1.122415</td>
+                                            <td>
+                                                <select class="select_table btn-block">
+                                                    <option>11:30</option>
+                                                    <option>12:30</option>
+                                                    <option>13:30</option>
+                                                </select>
+                                            </td>
+                                            <td>7:45</td>
+                                        </tr>
+                                        <tr>
+                                            <td>EUR/USD</td>
+                                            <td>81%</td>
+                                            <td>1.122415</td>
+                                            <td>
+                                                <select class="select_table btn-block">
+                                                    <option>11:30</option>
+                                                    <option>12:30</option>
+                                                    <option>13:30</option>
+                                                </select>
+                                            </td>
+                                            <td>7:45</td>
+                                        </tr>
+                                        <tr>
+                                            <td>EUR/USD</td>
+                                            <td>81%</td>
+                                            <td>1.122415</td>
+                                            <td>
+                                                <select class="select_table btn-block">
+                                                    <option>11:30</option>
+                                                    <option>12:30</option>
+                                                    <option>13:30</option>
+                                                </select>
+                                            </td>
+                                            <td>7:45</td>
+                                        </tr>
+                                        <tr>
+                                            <td>EUR/USD</td>
+                                            <td>81%</td>
+                                            <td>1.122415</td>
+                                            <td>
+                                                <select class="select_table btn-block">
+                                                    <option>11:30</option>
+                                                    <option>12:30</option>
+                                                    <option>13:30</option>
+                                                </select>
+                                            </td>
+                                            <td>7:45</td>
+                                        </tr>
+                                        <tr>
+                                            <td>EUR/USD</td>
+                                            <td>81%</td>
+                                            <td>1.122415</td>
+                                            <td>
+                                                <select class="select_table btn-block">
+                                                    <option>11:30</option>
+                                                    <option>12:30</option>
+                                                    <option>13:30</option>
+                                                </select>
+                                            </td>
+                                            <td>7:45</td>
+                                        </tr>
+                                        <tr>
+                                            <td>EUR/USD</td>
+                                            <td>81%</td>
+                                            <td>1.122415</td>
+                                            <td>
+                                                <select class="select_table btn-block">
+                                                    <option>11:30</option>
+                                                    <option>12:30</option>
+                                                    <option>13:30</option>
+                                                </select>
+                                            </td>
+                                            <td>7:45</td>
+                                        </tr>
+                                        <tr>
+                                            <td>EUR/USD</td>
+                                            <td>81%</td>
+                                            <td>1.122415</td>
+                                            <td>
+                                                <select class="select_table btn-block">
+                                                    <option>11:30</option>
+                                                    <option>12:30</option>
+                                                    <option>13:30</option>
+                                                </select>
+                                            </td>
+                                            <td>7:45</td>
+                                        </tr>
+                                        <tr>
+                                            <td>EUR/USD</td>
+                                            <td>81%</td>
+                                            <td class="red">1.122415</td>
+                                            <td>
+                                                <select class="select_table btn-block">
+                                                    <option>11:30</option>
+                                                    <option>12:30</option>
+                                                    <option>13:30</option>
+                                                </select>
+                                            </td>
+                                            <td class="green">7:45</td>
+                                        </tr>
+                                        <tr>
+                                            <td>EUR/USD</td>
+                                            <td>81%</td>
+                                            <td>1.122415</td>
+                                            <td>
+                                                <select class="select_table btn-block">
+                                                    <option>11:30</option>
+                                                    <option>12:30</option>
+                                                    <option>13:30</option>
+                                                </select>
+                                            </td>
+                                            <td>7:45</td>
+                                        </tr>
+                                        <tr>
+                                            <td>EUR/USD</td>
+                                            <td>81%</td>
+                                            <td>1.122415</td>
+                                            <td>
+                                                <select class="select_table btn-block">
+                                                    <option>11:30</option>
+                                                    <option>12:30</option>
+                                                    <option>13:30</option>
+                                                </select>
+                                            </td>
+                                            <td>7:45</td>
+                                        </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="panel2" class="tab-pane fade">
+                        <p class="white">2</p>
+                    </div>
+                    <div id="panel3" class="tab-pane fade">
+                        <p class="white">3</p>
+                    </div>
+                    <div id="panel4" class="tab-pane fade">
+                        <p class="white">4</p>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="col-xs-7">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-xs-8 standart_bg right_top_style">
+                            <span class="right_top_style_text">EUR/USD</span> <span class="right_top_style_text">70%</span>
+                            <span class="right_top_style_text">
+                                <span class="expire_style">EXPIRE</span>
+                                <select class="select_table">
+                                    <option>11:30</option>
+                                    <option>12:30</option>
+                                    <option>13:30</option>
+                                </select>
+                            </span> <span class="expire_style">MAR 18 2016 12:05:08</span>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-xs-8 standart_bg right_middle_style">
+                            <div class="container-fluid">
+                                <div class="row">
+                                    <div class="col-xs-3 block_right_border" align="center">
+                                        <p> Will GBP/CHF close higher or lower than the current price when the option expires at 21:00?</p>
+                                        <div class="btn btn-up btn-block btn-lg">UP <span class="glyphicon glyphicon-menu-up"></span></div>
+                                        <p>Target:</p>
+                                        <p class="red target_number">1.465464</p>
+                                        <div class="btn btn-low btn-block btn-lg">LOW <span class="glyphicon glyphicon-menu-down"></span></div>
+                                    </div>
+                                    <div class="col-xs-4 block_right_border">
+                                        <p class="high"><b>HIGH</b></p>
+                                        <form class="form-inline form_style">
+                                            <div class="form-group">
+                                                <label for="exampleInputName2">Amount: $</label>
+                                                <input type="text" class="amount_style">
+                                            </div>
+                                        </form>
+                                        <div class="btn btn-buy btn-block btn-lg">BUY</div>
+                                        <p>Closable: Yes</p>
+                                        <p>Return:
+                                            <br />
+                                           $0.00 (65%)
+                                            <br />
+                                           Expires Below
+                                        </p>
+                                        <p class="grey">$0.00 (0%)
+                                            <br />
+                                                        Expire Above
+                                        </p>
+                                    </div>
+                                    <div class="col-xs-5">
+                                        Graphic
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-xs-8 right_bottom_style">
+                            <ul class="nav nav-tabs">
+                                <li>
+                                    <a data-toggle="tab" href="#panel5">OPEN TRADES (0)</a>
+                                </li>
+                                <li>
+                                    <a data-toggle="tab" href="#panel6">TRADE HISTORY</a>
+                                </li>
+                                <li>
+                                    <a data-toggle="tab" href="#panel7">NEWS</a>
+                                </li>
+                                <li class="active">
+                                    <a data-toggle="tab" href="#panel8">PROMOTIONS</a>
+                                </li>
+                                <li>
+                                    <a data-toggle="tab" href="#panel9">ELITE CLUB</a>
+                                </li>
+                                <li>
+                                    <a data-toggle="tab" href="#panel10">TOURNAMENT</a>
+                                </li>
+                            </ul>
+                            <div class="tab-content standart_bg">
+                                <div id="panel8" class="tab-pane fade in active">
+                                    <div class="container-fluid">
+                                        <div class="row">
+                                            <div class="col-xs-8 no_padding">
+                                                <p class="promotions_text red top_standart">LOTS OF REASONS TO LOVE OPTIONFAIR</p>
+                                                <p class=" promotions_text_2 white">RECEIVE BOTH:
+                                                    <br />
+                                                                                    70% BONUS
+                                                    <br />
+                                                                                    +
+                                                    <br />
+                                                                                    COMPLETE EDUCATION & TUTORIAL PACKAGE
+
+                                                </p>
+                                                <p>
+                                                    <span class="btn btn-lg btn-login">LOGIN NOW</span>
+                                                </p>
+                                                <p class="grey right_bottom">Financial trading risks the loss of all your invested capital. Click Here to read full risk warning.</p>
+                                                <p class="grey right_bottom">* Bonus Terms and Conditions apply. The minimum deposit mentioned above is required. This promotion is valid until March 31, 2016 23:59 GMT.</p>
+                                            </div>
+                                            <div class="col-xs-4">
+                                                <img class="img_comp" src="img/comp_img.png" style="max-width: 100%; height: auto;">
+
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+
+                                <div id="panel5" class="tab-pane fade">
+                                    5
+                                </div>
+                                <div id="panel6" class="tab-pane fade">
+                                    6
+                                </div>
+                                <div id="panel7" class="tab-pane fade">
+                                    7
+                                </div>
+
+                                <div id="panel9" class="tab-pane fade">
+                                    9
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-content standart_bg">
+                            <div id="panel10" class="tab-pane fade">
+                                10
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+</section>
+<footer>
+    <div class="container-fluid ">
+        <div class="row standart_bg">
+            <div class="col-xs-6">
+                <div class="btn btn-lg btn-open">OPEN ACCOUNT</div>
+            </div>
+            <div class="col-xs-6" align="right">
+                <div class="btn btn-footer"><span class="glyphicon glyphicon-volume-up white footer_size"></span></div>
+                <div class="btn btn-footer white">online</span></div>
+
+            </div>
+        </div>
+    </div>
+
+</footer>
+<script src="js/bootstrap.min.js"></script>
+</body>
+</html>
