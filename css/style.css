@@ -112,8 +112,9 @@ header {
 	margin-left: 0.5vw;
 	width: 6vw;
 	background-color: transparent;
-	border-color: #313131;
-	color: #313131;
+	border-radius: 0;
+	border-color: #9b97a3;
+	color: #9b97a3;
 }
 
 .btn-block1 {
