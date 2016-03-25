@@ -397,6 +397,9 @@ thead {
 	margin-top: 1vh;
 	width: 56vw;
 	padding-top: 2vh;
+	padding-left: 0;
+	padding-right: 0;
+
 }
 .promotions_text{
 	font-size: 1.6em;
